@@ -1,9 +1,9 @@
-
+import banner from "../assets/banner/b5.jpg"
 
 const Banner = () => {
     return (
         <div>
-            <h1>Banner</h1>
+            <img src={banner} alt="" />
         </div>
     );
 };
